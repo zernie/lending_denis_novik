@@ -1,0 +1,41 @@
+@import "null_style.scss";
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../src/fonts/gilroy/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../src/fonts/gilroy/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../src/fonts/gilroy/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../src/fonts/gilroy/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../src/fonts/gilroy/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../src/fonts/gilroy/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+
+        font-family: 'Gilroy-Medium';
+	src: url('../src/fonts/gilroy/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../src/fonts/gilroy/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../src/fonts/gilroy/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../src/fonts/gilroy/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../src/fonts/gilroy/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../src/fonts/gilroy/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+                    // colors used
+$txt-gray: #828282;
+$txt-black: #000;
+
+body{
+    font-size: 18px;
+    color: $txt-black;
+    font-weight: 500;
+}
+                    // header nav
+.header__nav-list{
+    padding: 33px 0 0 0;
+}
+
+.header__nav-item a{
+    color: $txt-gray;
+}
+
+.header__nav-item.active a{
+    color: $txt-black;
+}
+

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url("../src/fonts/gilroy/gilroy-bold.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../src/fonts/gilroy/gilroy-bold.eot?#iefix") format("embedded-opentype"), url("../src/fonts/gilroy/gilroy-bold.woff2") format("woff2"), url("../src/fonts/gilroy/gilroy-bold.woff") format("woff"), url("../src/fonts/gilroy/gilroy-bold.ttf") format("truetype"), url("../src/fonts/gilroy/gilroy-bold.svg#gilroy-bold") format("svg");
+  /* Chrome < 4, Legacy iOS */
+  font-family: 'Gilroy-Medium';
+  src: url("../src/fonts/gilroy/gilroy-medium.eot");
+  /* IE 9 Compatibility Mode */
+  src: url("../src/fonts/gilroy/gilroy-medium.eot?#iefix") format("embedded-opentype"), url("../src/fonts/gilroy/gilroy-medium.woff2") format("woff2"), url("../src/fonts/gilroy/gilroy-medium.woff") format("woff"), url("../src/fonts/gilroy/gilroy-medium.ttf") format("truetype"), url("../src/fonts/gilroy/gilroy-medium.svg#gilroy-medium") format("svg");
+  /* Chrome < 4, Legacy iOS */
+}
+
+body {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+}
+
+.header__nav-list {
+  padding: 33px 0 0 0;
+}
+
+.header__nav-item a {
+  color: #828282;
+}
+
+.header__nav-item.active a {
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
