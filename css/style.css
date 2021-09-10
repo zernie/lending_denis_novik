@@ -92,8 +92,22 @@ body {
   font-weight: 500;
 }
 
+.my-container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.my-centering {
+  margin: 0 auto;
+}
+
+.header {
+  padding: 33px 0 0 104px;
+}
+
 .header__nav-list {
-  padding: 33px 0 0 0;
+  padding: 0;
+  margin: 0;
 }
 
 .header__nav-item a {
@@ -102,5 +116,37 @@ body {
 
 .header__nav-item.active a {
   color: #000;
+}
+
+.nav {
+  margin: 0 0 32px 0;
+}
+
+.header__band::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #828282;
+}
+
+.designer-data {
+  margin: 40px 0 30px 0;
+}
+
+.designer-name h1 {
+  font-weight: 700;
+  font-size: 47px;
+}
+
+.designer-age {
+  line-height: 0.5;
+}
+
+.rotated {
+  /* IE 9 */
+  -webkit-transform: rotate(270deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(270deg) translate(20%, 255%);
 }
 /*# sourceMappingURL=style.css.map */
