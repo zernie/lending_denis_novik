@@ -108,6 +108,7 @@ body {
 .header__nav-list {
   padding: 0;
   margin: 0;
+  gap: 8px;
 }
 
 .header__nav-item a {
@@ -125,8 +126,22 @@ body {
 .menu-burger {
   position: absolute;
   top: -20%;
-  -webkit-transition: all 3s ease 0;
-  transition: all 3s ease 0;
+  -webkit-transition: top 3s ease;
+  transition: top 3s ease;
+}
+
+@media screen and (max-width: 768px){
+  .menu-burger {
+    top: 0;
+    height: 100vh;
+    background: white;
+    width: 100vw;
+    padding: 20px;
+  }
+
+  .header__nav-item {
+    margin-bottom: 20px
+  }
 }
 
 .header__band::after {
