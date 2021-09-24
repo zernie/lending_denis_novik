@@ -122,6 +122,13 @@ body {
   margin: 0 0 32px 0;
 }
 
+.menu-burger {
+  position: absolute;
+  top: -20%;
+  -webkit-transition: all 3s ease 0;
+  transition: all 3s ease 0;
+}
+
 .header__band::after {
   content: '';
   display: block;
